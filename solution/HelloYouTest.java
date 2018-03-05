@@ -8,5 +8,8 @@ public class HelloYouTest extends TestCase {
 		assertEquals(true, true);
 	}
 
-	// TODO
+	@Test
+	public void testTacos() throws Exception {
+		assertEquals("Hello Tacos", HelloYou.sayHello("Tacos"));
+	}
 }
