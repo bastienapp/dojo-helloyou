@@ -12,4 +12,9 @@ public class HelloYouTest extends TestCase {
 	public void testTacos() throws Exception {
 		assertEquals("Hello Tacos", HelloYou.sayHello("Tacos"));
 	}
+
+    @Test
+	public void testUser() throws Exception {
+		assertEquals("Hello User", HelloYou.sayHello(""));
+	}
 }

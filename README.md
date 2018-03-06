@@ -6,6 +6,10 @@ Créer une méthode qui prend un prénom en argument et retourne :
 
 Où "firstname" est remplacé par l'argument de la méthode.
 
+Si firstname est vide, retourner 
+
+* "Hello User" 
+
 Rappel des commande junit :
 
     javac -cp .:junit-4.12.jar HelloYouTest.java
