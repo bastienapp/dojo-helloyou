@@ -6,7 +6,7 @@ Créer une méthode qui prend un prénom en argument et retourne :
 
 Où "firstname" est remplacé par l'argument de la méthode.
 
-Si firstname est vide, retourner 
+Si firstname est vide, retourner :
 
 * "Hello User" 
 
